@@ -1,0 +1,79 @@
+# =============================================================================
+# ASSINATURA DIGITAL NATIVO — GITIGNORE
+# =============================================================================
+
+# --- Maven & Gradle Build Artifacts ---
+target/
+**/target/
+build/
+**/build/
+out/
+**/out/
+*.class
+**/*.class
+*.jar
+**/*.jar
+*.war
+**/*.war
+*.ear
+**/*.ear
+*.zip
+**/*.zip
+*.tar.gz
+*.tgz
+
+# --- Certificates & Keys (Sensitive Data) ---
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+*.der
+*.jks
+**/certs/
+!app-nativo/src/main/resources/certs/   # Permitir apenas se houver uma pasta de templates seguros (não é o caso hoje)
+
+# --- Logs ---
+*.log
+**/log/
+**/*.log
+
+# --- Demo & Test Outputs ---
+web-demo/*.pdf
+web-demo-remote/*.pdf
+**/*.pdf
+!docs/**/*.pdf   # Permitir PDFs de documentação oficial, se houver
+
+# --- IDEs & Editors ---
+# VS Code
+.vscode/
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / STS
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- OS & System files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
