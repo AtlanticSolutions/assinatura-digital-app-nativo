@@ -1,6 +1,6 @@
 # Assinador Digital ICP-Brasil (Aplicativo Nativo)
 
-Este repositório contém a distribuição pública e as instruções de instalação do **Assinador Digital ICP-Brasil (App Nativo)**. 
+Este repositório contém a distribuição pública e as instruções de instalação do **Assinador Digital ICP-Brasil (App Nativo)**.
 
 Este aplicativo nativo (Native Messaging Host) é o componente local necessário para fazer a ponte de comunicação segura entre a extensão do seu navegador (Google Chrome, Mozilla Firefox, Microsoft Edge) e os certificados digitais (A1 em software ou A3 em cartão/token USB) instalados no seu computador.
 
@@ -78,7 +78,8 @@ Siga os passos abaixo de acordo com o seu sistema operacional:
 Depois de instalar o aplicativo nativo, instale a extensão correspondente no seu navegador:
 
 - **Google Chrome / Microsoft Edge / Chromium**: Instale a extensão através do link da Chrome Web Store oficial (fornecido pelo administrador do seu portal de assinaturas).
-- **Mozilla Firefox**: Instale o arquivo de extensão `.xpi` correspondente.
+- **Mozilla Firefox**: Acesse o portal **Firefox Add-ons (AMO)** no link oficial da extensão:
+   [Assinador Digital ICP-Brasil no Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/assinador-digital-icp-brasil/)
 
 Após a instalação, o ícone do assinador aparecerá na barra de ferramentas do seu navegador. Você pode clicar nele para visualizar o status de conexão com o aplicativo local e listar os certificados detectados.
 
